@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(11, 255, 11);
+}
+.container{
+    margin: 30;
+    height: 40px;
+    width: 60%;
+    background-color: rgb(26, 156, 121);
+}
+.grid-container {
+    height: 40px;
+    width: 36%;
+    margin: 30;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-areas: 
+    "navbar"
+    "container"
+    "grid-item blank";
+    grid-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    background-color: rgb(255, 3, 188);
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.grid-box {
+    background-color: rgb(178, 248, 0);
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    height: 80px;
+}
+.line{
+    display: flex;
+    grid-gap: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 10px;
+    width: 329%;
+    background-color: gray;
+}
+
+.footer{
+    height:150px;
+    width: 329%;
+    background-color: rgb(51, 48, 48);
+}
+
+.blank{
+    margin-top: 0px;
+    margin-left: 770px;
+    height: 688px;
+    border: 1px solid black;
+    width: 21.3%;
+    display: flex;
+    position: relative; bottom: 60px;
+}
+.sidebar{
+    display: flex;
+    margin: 30;
+    height: 300px;
+    width: 35%;
+    background-color: rgb(90, 255, 233);
+    margin-left: 1200px;
+    position: relative; bottom: 850px;
+}
+.bar{
+    display: flex;
+    margin: 30;
+    height: 50px;
+    width: 35%;
+    background-color: rgb(13, 0, 255);
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
+}
+.box1{
+    display: flex;
+    margin: 30;
+    height: 146px;
+    width: 10%;
+    background-color: rgb(128, 1, 1);
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
+}
+.line2{
+    display: flex;
+    margin: 20;
+    height: 10px;
+    width: 35%;
+    background-color: rgb(0, 255, 128);
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
+}
+.box2{
+    display: flex;
+    margin: 30;
+    height: 146px;
+    width: 10%;
+    background-color: rgb(249, 255, 143);
+    margin-left: 1200px;
+    position: relative; bottom: 862px;
+}
